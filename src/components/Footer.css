@@ -1,0 +1,65 @@
+.container-footer {
+    display: flex;
+    justify-content: center;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    background: #1313;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1rem;
+    border-radius: 25px;
+    padding-right: 1rem;
+    box-shadow: 3px 6px 13px rgba(0, 0, 0, 0.2);
+}
+
+.footer > ul {
+    list-style: none;
+    color: white;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    transition: 0.3s;
+}
+
+ul > li {
+    margin-left: 2rem;
+    transition: 0.3s;
+}
+
+ul > li > span {
+    margin-left: 5px;
+    transition: 0.15s;
+}
+
+ul > li > span:hover {
+    color: rgb(99, 173, 237);
+    cursor: pointer;
+    transition: 0.15s;
+}
+
+
+
+
+@media screen and (max-width: 700px) {
+    .footer {
+        width: 100%;
+    }
+
+    ul > li > span {
+        font-size: 10px;
+    }
+
+    .footer {
+        padding-right: 1rem;
+        justify-content: center;
+    }
+}
