@@ -62,5 +62,7 @@ ul > li > span:hover {
     .footer {
         padding-right: 1rem;
         justify-content: center;
+        width: 80%;
+        padding-right: 4.5rem;
     }
 }
