@@ -1,12 +1,13 @@
 .container-footer {
     display: flex;
     justify-content: center;
+    z-index: 99;
 }
 
 .footer {
     position: fixed;
     bottom: 0;
-    background: #1313;
+    background: #131313;
     width: 60%;
     display: flex;
     justify-content: center;
