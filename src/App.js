@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect, useState } from 'react';
 import  './App.css';
-import searchIcon from './searchIcon.svg';
 import MovieCard from './components/MovieCard';
 
 const API_URL = 'https://imdb8.p.rapidapi.com/auto-complete';
