@@ -10,6 +10,7 @@ body {
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
     background-size: cover;
+    padding-bottom: 4rem;
 }
 
 .app {
